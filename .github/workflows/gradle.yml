@@ -35,7 +35,7 @@ jobs:
       with:
         registry: docker.936035099.xyz
         username: danielf
-        password: ${{ DANIELF_DOCKER_HOME }}
+        password: ${{ secrets.DANIELF_DOCKER_HOME }}
         ecr: false
     - name: Build docker with Gradle
       uses: gradle/gradle-build-action@0d13054264b0bb894ded474f08ebb30921341cee
