@@ -41,5 +41,6 @@ jobs:
       with:
         context: .
         push: true
+        tags: helloworld-jvm
         file: src/main/docker/Dockerfile.jvm
-        labels: quarkus/hellowolrd-jvm
+        labels: quarkus/helloworld-jvm
